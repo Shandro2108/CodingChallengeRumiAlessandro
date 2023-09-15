@@ -1,0 +1,73 @@
+body{
+  background-image:url("img/background.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.container{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left:200px;
+  margin-right: 200px;
+  padding: 75px;
+}
+
+img{
+  height: 85px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2{
+  text-align: center;
+  color: lime;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 28px;
+  margin: 10px;
+}
+
+.boxlime{
+  background-color: lime;
+  padding: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btt1, .btt2, .btt3{
+  font-size:12px;
+}
+
+.nome-monopattino{
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.location, .infocharge{
+  color: white;
+  font-size: 14px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.chargebar1, .chargebar2, .chargebar3{
+  height: 20px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.chargebar1{
+  width: 300px;
+  background-color: rgba(245,180,83,255);
+}
+
+.chargebar2{
+  width: 500px;
+  background-color: lime;
+}
+
+.chargebar3{
+  width: 100px;
+  background-color: rgba(190,65,65,255);
+}
